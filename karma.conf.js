@@ -11,7 +11,7 @@ module.exports = function (config) {
 
     files: [
       './node_modules/phantomjs-polyfill/bind-polyfill.js',
-      'tests.webpack.js'
+      './tests.webpack.js'
     ],
 
     preprocessors: {

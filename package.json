@@ -1,0 +1,31 @@
+{
+  "name": "gitissue-redux",
+  "version": "0.0.1",
+  "description": "Git Issue Query UI using Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almandsky/gitissue-redux.git"
+  },
+  "keywords": [
+    "git",
+    "issues",
+    "redux",
+    "react"
+  ],
+  "author": "almandsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almandsky/gitissue-redux/issues"
+  },
+  "homepage": "https://github.com/almandsky/gitissue-redux#readme",
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "concurrently": "^2.1.0"
+  }
+}
